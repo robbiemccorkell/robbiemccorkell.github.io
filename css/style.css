@@ -1,0 +1,96 @@
+body {
+	background: #ffffff url('img/groovepaper.png') repeat;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* Headers */
+
+h1 {
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 48pt;
+	margin: 50px auto 0 auto;
+}
+
+h2 {
+	font-family: "Roboto-Thin", sans-serif;
+	font-size: 18pt;
+	color: #b3b3b3; 
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: "Roboto-Thin";
+	font-size: 24pt;
+	margin: 50px 0px 0px 0px;
+}
+
+h4 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: #666;
+}
+
+/* Section Headers */
+
+.client_logo {
+	border-radius: 5px;
+}
+
+#decibel_name {
+	padding: 18px 0;
+}
+
+#pt_name {
+	padding: 10px 0;
+}
+
+#content .date {
+	text-align: right;
+}
+
+/* Navigation */
+
+#navigation li {
+	float: right;
+	margin: 60px 0px 0px 20px;
+	list-style-type: none;
+	letter-spacing: .25em;
+	text-align: center;
+}
+
+#navigation a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-weight: bold;
+	padding: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #666;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+	color: #666;
+}
+
+/* Gallery */
+
+.gallery a {
+	margin: 0 10px;
+}
+
+.gallery img {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+.gallery {
+	margin: 30px 0px;
+}
+
+/* Fix for table padding from screen.css */
+td {
+	padding: 0;
+}

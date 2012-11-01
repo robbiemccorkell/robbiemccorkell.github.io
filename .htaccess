@@ -1,0 +1,4 @@
+DirectoryIndex index.html
+
+RewriteEngine on RewriteRule ^index\.html$ /portfolio
+RewriteEngine on RewriteRule ^cv\.html$ /cv
