@@ -80,7 +80,7 @@ h4 {
 /* Gallery */
 
 .description p, .description .project {
-	padding-left: 20px;
+	padding: 0px 20px;
 }
 
 ul.gallery {
