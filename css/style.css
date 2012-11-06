@@ -1,25 +1,26 @@
 body {
 	background: #ffffff url('img/groovepaper.png') repeat;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #666;
 }
 
 /* Headers */
 
 h1 {
-	font-family: "Roboto-Thin", sans-serif;
+	font-family: "Roboto-Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 48pt;
 	margin: 50px auto 0 auto;
 }
 
 h2 {
-	font-family: "Roboto-Thin", sans-serif;
+	font-family: "Roboto-Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 18pt;
 	color: #b3b3b3; 
 	margin: 0 auto;
 }
 
 h3 {
-	font-family: "Roboto-Thin";
+	font-family: "Roboto-Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 24pt;
 	margin: 50px 0px 0px 0px;
 }
@@ -34,6 +35,7 @@ h4 {
 
 .client_logo {
 	border-radius: 5px;
+	margin-bottom: 30px;
 }
 
 #decibel_name {
@@ -77,18 +79,23 @@ h4 {
 
 /* Gallery */
 
+.description p, .description .project {
+	padding-left: 20px;
+}
+
 ul.gallery {
-	margin: 30px 0px;
 	position: relative;
 	list-style: none;
 	z-index: 1;
-/* 	overflow: hidden; */
+	padding-top: 30px;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #efefef;
 }
 
 ul.gallery li {
 	position: relative;
 	float: left;
-/* 	width: 200px; */
 	height: 120px;
 	padding: 0;
 	border: 1px solid #efefef;
@@ -133,6 +140,10 @@ ul.gallery li p {
 	text-align: center;
 	width: 200px;
 	word-wrap: break-word;
+}
+
+ul#web-design {
+	min-height: 180px;
 }
 
 /* Fix for table padding from screen.css */
