@@ -82,7 +82,7 @@ ul.gallery {
 	position: relative;
 	list-style: none;
 	z-index: 1;
-	overflow: hidden;
+/* 	overflow: hidden; */
 }
 
 ul.gallery li {
@@ -127,6 +127,12 @@ ul.gallery li:after {
 	-ms-transform: skew(15deg) rotate(6deg);
 	-o-transform: skew(15deg) rotate(6deg);
 	transform: skew(15deg) rotate(6deg); 
+}
+
+ul.gallery li p {
+	text-align: center;
+	width: 200px;
+	word-wrap: break-word;
 }
 
 /* Fix for table padding from screen.css */
