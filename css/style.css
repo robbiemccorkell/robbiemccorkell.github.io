@@ -85,7 +85,7 @@ ul.gallery {
 	list-style: none;
 	z-index: 1;
 	padding-top: 30px;
-	background: white;
+	background: #FFF url('img/tiny_grid.png') repeat;
 	border-radius: 10px;
 	border: 1px solid #efefef;
 }
