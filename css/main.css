@@ -35,6 +35,39 @@ body {
 	border-bottom: 2px solid grey;
 }
 
+/* Portfolio styling */
+
+ul.gallery {
+	margin: 0;
+	padding: 0;
+}
+
+ul.gallery li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+div.software-development ul.gallery {
+	text-align: right;
+}
+
+#content div.company-header {
+	margin-bottom: 40px;
+}
+
+#content #ptName {
+	margin: 8px 0;
+}
+
+#content #decibelName {
+	margin: 22px 0;
+}
+
+#content div.description .duration {
+	text-align: right;
+}
+
 /* Cv styling */
 
 #content div.content-item div.content-item-content {
