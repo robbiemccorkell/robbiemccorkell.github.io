@@ -4,145 +4,205 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Robbie McCorkell - CV</title>
 	
-	<!-- Blueprint Stylesheets -->
-	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen,projection">
-	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
-	<!-- [if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen,projection"><![endif]-->
-	
+	<!-- Bootstrap -->
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 	<!-- Custom Fonts -->
 	<link rel="stylesheet" href="css/fonts/fonts.css" type="text/css" media="screen">
 
 	<!-- Custom Styles -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
 
 </head>
 <body>
 	<div class="container">
-		<div class="span-14">
-			<h1>Robbie McCorkell</h1>
-			<h2>Software Development and Web Design</h2>
+		<div id="header" class="row">
+			<div class="col-md-9">
+				<h1>Robbie McCorkell</h1>
+				<h2>Front and back-end software development</h2>
+			</div>
+			<div id="navigation" class="col-md-3 clearfix">
+				<ul class="nav">
+					<li><a href="index.html">Portfolio</a></li>
+					<li class="active"><a href="cv.html">CV</a></li>
+				</ul>
+			</div>
 		</div>
-		<div id="navigation" class="span-10 last">
-			<ul>
-				<li><a href="cv.html">CV</a></li>
-				<li><a href="index.html">Portfolio</a></li>
-			</ul>
-		</div>
-		
-		<div id="content" class="span-24">
-			
-			<div class="span-24" id="employment">
+		<div id="content">
+
+			<div id="employment">
 				<h3>Employment</h3>
 				<hr>
 
-				<h4 class="span-18">Bloom.fm - Software Developer</h4>
-				<h4 class="span-6 last date">07/2013 - 05/2014</h4>
-				<ul class="span-24">
-					<li>Originally hired to work on back-end web services, but migrated to working on front-end web development when help was needed. Now specialise in front-end web development.</li>
-					<li>Worked in team of two to develop Bloom's music web app up to closed beta stage open to over 8000 users.</li>
-					<li>Worked alone on a mobile subscription management section of the web app, and rebuilt Bloom's marketing site from the ground up to a beautiful responsive design.</li>
-					<li>Built internal and public web services on Bloom's back-end system. These included services for recommending radios to users based on their music tastes, determining similar albums to a given album, and importing and exposing artist information (years active, band members etc) for Bloom's database.</li>
-					<li>Worked closely with the marketing team to build email templates with a broad compatibility across email clients, and managed the sending of push notifications to users.</li>
-				</ul>
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">Bloom.fm - Software Developer</h4>
+						<h4 class="col-md-3 date">07/2013 - 05/2014</h4>
+					</div>
+					<div class="content-item-content">
+						<ul>
+							<li>Originally hired to work on back-end web services, but migrated to working on front-end web development when help was needed. Now specialise in front-end web development.</li>
+							<li>Worked in team of two to develop Bloom's music web app up to closed beta stage open to over 8000 users.</li>
+							<li>Worked alone on a mobile subscription management section of the web app, and rebuilt Bloom's marketing site from the ground up to a beautiful responsive design.</li>
+							<li>Built internal and public web services on Bloom's back-end system. These included services for recommending radios to users based on their music tastes, determining similar albums to a given album, and importing and exposing artist information (years active, band members etc) for Bloom's database.</li>
+							<li>Worked closely with the marketing team to build email templates with a broad compatibility across email clients, and managed the sending of push notifications to users.</li>
+						</ul>
+					</div>
+				</div>
 
-				<h4 class="span-18">Decibel Music Systems Ltd – Software Development Intern (<a href="decibel-reference/Decibel_Reference-Robbie_McCorkell.pdf">Reference Letter</a>)</h4>
-				<h4 class="span-6 last date">07/2012 – 09/2012</h4>
-				<ul class="span-24">
-					<li>Refactored and cleaned a top-level internal application for managing a large database. Added features to detect which user was last logged in to the system from a machine, and the ability to save a 'favourite artist' for each user for quick access when testing the system.</li>
-					<li>Developed an application using C# and WPF to manage a large Microsoft SQL Server database of images using LINQ to SQL. Users gained the ability to view, edit and export images in the database along with their related data.</li>
-					<li>Developed tools to identify similar images in the database using open source versions of perceptual hash, and SURF libraries. Also developed tools for identifying CD or Vinyl images using AForge.NET image processing libraries.</li>
-					<blockquote>
-						“Over the last few months, he has performed his duties as a Software Developer admirably with output that has consistently exceeded our expectations. 
-	He would be a perfect hire for a technology or consultancy business looking for a smart, dedicated and engaging graduate to join their team.” - Gregory Kris, CEO.
-					</blockquote>
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">Decibel Music Systems Ltd – Software Development Intern (<a href="decibel-reference/Decibel_Reference-Robbie_McCorkell.pdf">Reference Letter</a>)</h4>
+						<h4 class="col-md-3 date">07/2012 – 09/2012</h4>
+					</div>
 
-				</ul>
+					<div class="content-item-content">
+						<ul>
+							<li>Refactored and cleaned a top-level internal application for managing a large database. Added features to detect which user was last logged in to the system from a machine, and the ability to save a 'favourite artist' for each user for quick access when testing the system.</li>
+							<li>Developed an application using C# and WPF to manage a large Microsoft SQL Server database of images using LINQ to SQL. Users gained the ability to view, edit and export images in the database along with their related data.</li>
+							<li>Developed tools to identify similar images in the database using open source versions of perceptual hash, and SURF libraries. Also developed tools for identifying CD or Vinyl images using AForge.NET image processing libraries.</li>
+						</ul>
+						<blockquote>
+							“Over the last few months, he has performed his duties as a Software Developer admirably with output that has consistently exceeded our expectations. 
+							He would be a perfect hire for a technology or consultancy business looking for a smart, dedicated and engaging graduate to join their team.” - Gregory Kris, CEO.
+						</blockquote>
+					</div>
+				</div>
 
-				<h4 class="span-18">Present Thinking Limited - Director</h4>
-				<h4 class="span-6 last date">12/2011 - Present</h4>
-				<ul class="span-24">
-					<li>Director at Present Thinking Ltd, a software development and consultancy start-up building products ranging from web apps to custom content management systems and mobile applications.</li>
-					<li>Often used as a basis for my own expiriments with the latest technologies and frameworks.</li>		
-				</ul>
-			
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">Present Thinking Limited - Director</h4>
+						<h4 class="col-md-3 date">12/2011 - Present</h4>
+					</div>
+
+					<div class="content-item-content">
+						<ul>
+							<li>Director at Present Thinking Ltd, a software development and consultancy start-up building products ranging from web apps to custom content management systems and mobile applications.</li>
+							<li>Often used as a basis for my own experiments with the latest technologies and frameworks.</li>	
+						</ul>
+					</div>
+				</div>
 			</div>
 
-			<div class="span-24" id="education">
+			<div id="education">
 				<h3>Education</h3>
 				<hr>
-				<h4 class="span-18">University of Exeter, Exeter, UK</h4>
-				<h4 class="span-6 last date">10/2009 – 06/2013</h4>
-				<ul class="span-24">
-					<li>1st class master's degree in physics with one year studying in New Zealand.</li>
-					<li>Master's thesis involved specialisation in condensed matter physics focusing on the super-material Graphene.</li>
-					<li>Co-developed a spray-on version of the material GraphExeter developed at Exeter University for application directly to fabrics and glass.</li>
-					<li>GraphExeter could potentially revolutionise the creation of wearable electronic devices (<a href="http://www.bbc.co.uk/news/uk-england-18302843">BBC report</a>, <a href="http://www.bbc.co.uk/news/uk-england-devon-18302848">video report</a>).</li>
-				</ul>
-				
-				<h4 class="span-18">University of Auckland, Auckland, New Zealand</h4>
-				<h4 class="span-6 last date">07/2011 – 06/2012</h4>
-				<ul class="span-24">
-					<li>One year exchange programme involving living and studying in Auckland, New Zealand.</li>
-					<li>Took elective classes in computer science learning Java programming, software engineering (object-oriented software development in java) and music technology.</li>
-					<li>Attended two Windows Phone Student Camps that involve building games and applications for the Windows Phone platform using C#, Microsoft Visual Studio, Expression Blend and the XNA and Silverlight frameworks.</li>
-				</ul>
-				
-				<h4 class="span-18">A-levels</h4>
-				<h4 class="span-6 last date">10/2007 – 06/2009</h4>
-				<p>A-levels in Physics, Mathematics and ICT achieving grades A,B and B respectively.</p>
+
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">University of Exeter, Exeter, UK</h4>
+						<h4 class="col-md-3 date">10/2009 – 06/2013</h4>
+					</div>
+					<div class="content-item-content">
+						<ul>
+							<li>1st class master's degree in physics with one year studying in New Zealand.</li>
+							<li>Master's thesis involved specialisation in condensed matter physics focusing on the super-material Graphene.</li>
+							<li>Co-developed a spray-on version of the material GraphExeter developed at Exeter University for application directly to fabrics and glass.</li>
+							<li>GraphExeter could potentially revolutionise the creation of wearable electronic devices (<a href="http://www.bbc.co.uk/news/uk-england-18302843">BBC report</a>, <a href="http://www.bbc.co.uk/news/uk-england-devon-18302848">video report</a>).</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">University of Auckland, Auckland, New Zealand</h4>
+						<h4 class="col-md-3 date">07/2011 – 06/2012</h4>
+					</div>
+					<div class="content-item-content">
+						<ul>
+							<li>One year exchange programme involving living and studying in Auckland, New Zealand.</li>
+							<li>Took elective classes in computer science learning Java programming, software engineering (object-oriented software development in java) and music technology.</li>
+							<li>Attended two Windows Phone Student Camps that involve building games and applications for the Windows Phone platform using C#, Microsoft Visual Studio, Expression Blend and the XNA and Silverlight frameworks.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="content-item">
+					<div class="row">
+						<h4 class="col-md-9">A-levels</h4>
+						<h4 class="col-md-3 date">10/2007 – 06/2009</h4>
+					</div>
+					<div class="content-item-content">
+						<p>A-levels in Physics, Mathematics and ICT achieving grades A,B and B respectively.</p>
+					</div>
+				</div>
 			</div>
-			
-			<div class="span-24" id="skills">
+
+			<div id="skills">
 				<h3>Skills</h3>
 				<hr>
-				In approximate order of experience:
-				<ul>
-					<li>Languages - C#, HTML5, CSS3, Javascript, Java, Python, MATLAB.</li>
-					<li>Frameworks - ASP.NET MVC, a custom JS MVC framework used at Bloom.fm, Blueprint, WPF.
-					<li>Tools - Microsoft Visual Studio, Adobe Photoshop, Mercurial, Redis, SQL, Eclipse, MATLAB.</li>
-					<li>Operating Systems - Microsoft Windows, Apple OSX</li>
-					<li>Playing/played with - Ubuntu Linux, Angular.js, Bootstrap, Firebase, Google app engine in python, Android development with IntelliJ Idea, iOS development in objective-c.
-					<li>Extensive knowledge of computer hardware from designing and building computers for personal use.</li>
-				</ul>
+				<div class="content-item">
+					In approximate order of experience:
+					<div class="content-item-content">
+						<ul>
+							<li>Languages - C#, HTML5, CSS3, Javascript, Java, Python, MATLAB.</li>
+							<li>Frameworks - ASP.NET MVC, a custom JS MVC framework used at Bloom.fm, Blueprint, WPF.</li>
+							<li>Tools - Microsoft Visual Studio, Adobe Photoshop, Mercurial, Redis, SQL, Eclipse, MATLAB.</li>
+							<li>Operating Systems - Microsoft Windows, Apple OSX</li>
+							<li>Playing/played with - Ubuntu Linux, Angular.js, Bootstrap, Firebase, Google app engine in python, Android development with IntelliJ Idea, iOS development in objective-c.</li>
+							<li>Extensive knowledge of computer hardware from designing and building computers for personal use.</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			
-			<div class="span-24" id="interests">
+
+			<div id="interests">
 				<h3>Interests</h3>
 				<hr>
-				<p>I am a self-confessed and proud geek. When I'm not at my computer you can find me exploring live music venues and cocktail bars in London with my friends. I am also a keen runner and musician. I take part in competitive 10K races, and have completed a half-marathon. I also play guitar and lead a band whilst in Exeter, playing in pubs and clubs around the city. I'm very interested in personal fitness, so I go to the gym regularly, and occasionally go cycling. One of these days I'll be brave enough to take up climbing.</p>
+				<div class="content-item">
+					<div class="content-item-content">
+						<p>I am a self-confessed and proud geek. When I'm not at my computer you can find me exploring live music venues and cocktail bars in London with my friends. I am also a keen runner and musician. I take part in competitive 10K races, and have completed a half-marathon. I also play guitar and lead a band whilst in Exeter, playing in pubs and clubs around the city. I'm very interested in personal fitness, so I go to the gym regularly, and occasionally go cycling. One of these days I'll be brave enough to take up climbing.</p>
+					</div>
+				</div>
 			</div>
-			
-			<div class="span-24" id="references">
+
+			<div id="references">
 				<h3>References</h3>
 				<hr>
-				
-				<div class="span-6">
-					<address>
-						Thong Nguyen<br/>
-						CTO<br/>
-						Bloom.fm<br/>
-						Unit 1.29 
-						The Light Box<br/>
-						111 Power Road<br/>
-						London, W4 5PY<br/>
-						<a href="mailto:tumtumtum@gmail.com">tumtumtum@gmail.com</a><br/>
-					</address>
+
+				<div class="content-item">
+					<div class="content-item-content">
+						<address>
+							Thong Nguyen<br/>
+							CTO<br/>
+							Bloom.fm<br/>
+							Unit 1.29 
+							The Light Box<br/>
+							111 Power Road<br/>
+							London, W4 5PY<br/>
+							<a href="mailto:tumtumtum@gmail.com">tumtumtum@gmail.com</a><br/>
+						</address>
+					</div>
 				</div>
-				<div class="span-18 last">
-					<address>
-						Evan Stein<br/>
-						Founder<br/>
-						Decibel Music Systems Limited<br/>
-						The Old Truman Brewery<br/>
-						91 Brick Lane<br/>
-						London, E1 6QL<br/>
-						<a href="mailto:evan.stein@decibel.net">evan.stein@decibel.net</a><br/>
-					</address>
+				<div class="content-item">
+					<div class="content-item-content">
+						<address>
+							Evan Stein<br/>
+							Founder<br/>
+							Decibel Music Systems Limited<br/>
+							The Old Truman Brewery<br/>
+							91 Brick Lane<br/>
+							London, E1 6QL<br/>
+							<a href="mailto:evan.stein@decibel.net">evan.stein@decibel.net</a><br/>
+						</address>
+					</div>
 				</div>
 			</div>
-			
+
 			<h3 class="span-24" id="download"><a href="CV/Robert_McCorkell-CV.pdf">Download PDF</a></h3>
 		</div>
+
 	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
