@@ -87,5 +87,22 @@ body {
 
 }
 
+@media print {
+	#navigation {
+		display: none;
+	}
+
+	.no-print {
+		display: none;
+	}
+
+	a[href]:after {
+		content: none;
+	}
+	button {
+		display: none;
+	}
+}
+
 
 
