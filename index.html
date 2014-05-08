@@ -19,86 +19,156 @@
 
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="css/main.css" type="text/css" media="all">
-</head>
-<body onload="setupZoom()">
-	<div class="container">
-		<div id="header" class="row">
-			<div class="col-md-9">
-				<h1>Robbie McCorkell</h1>
-				<h2>Front and back-end software development</h2>
-			</div>
-			<div id="navigation" class="col-md-3 clearfix">
-				<ul class="nav">
-					<li class="active"><a href="index.html">Portfolio</a></li>
-					<li><a href="cv.html">CV</a></li>
-				</ul>
+
+	</head>
+	<body onload="setupZoom()">
+		<div class="container">
+			<div id="header" class="row">
+				<div class="col-md-9">
+					<h1>Robbie McCorkell</h1>
+					<h2>Front and back-end software development</h2>
+				</div>
+				<div id="navigation" class="col-md-3 clearfix">
+					<ul class="nav">
+						<li class="active"><a href="index.html">Portfolio</a></li>
+						<li><a href="cv.html">CV</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		
-		<div id="content">
-			<div class="software-development">
-				<h3>Software Development</h3>
-				<hr />
-				<div class="row company-header">
-					<img class="col-md-2 client-logo" src="images/decibel/decibel.png" />
-					<h4 class="col-md-10" id="decibelName">Decibel Music Systems Ltd</h4>
-				</div>
-				<div class="row">
-					<div class="description col-md-6">
-						<div class="row">
-							<h4 class="col-md-7">Album Art Manager</h4>
-							<h4 class="col-md-5 duration">Duration: ~5 weeks</h4>
-						</div>
-						<p>An application developed for Decibel Music Systems Ltd, a music metadata startup based in Silicon Roundabout, London. All projects were written in C# using the WPF framework.</p>
-						<p>When music is exported from Decibel's vast database it needs to be verified by humans to check for images regarded parental advisory, corrupt or missing. The grid view of album art in this application allows this with ease and speed.</p>
-						<p>As images are viewed or highlighted the relevant album information is pulled from the database and displayed alongside. A timesaving feature of the application finds all artwork for the release of an album from Discogs.com and downloads the art to Decibel's database with a simple double-click.</p>
-						<p>The app is also able to export artwork from the database, saving full size images and generating thumbnails, and storing information within the metadata of the image.</p>
-					</div>
-					<ul class="gallery col-md-6">
-						<li><a href="images/decibel/artmanager1.jpg" title="Grid view for easy viewing of huge artwork database."><img src="images/decibel/artmanager1_thumb.jpg" class="thumbnail" alt="" /></a></li>
-						<li><a href="images/decibel/artmanager2.jpg" title="Full size view of single artwork."><img src="images/decibel/artmanager2_thumb.jpg" class="thumbnail" alt="" /></a></li>
-						<li><a href="images/decibel/artmanager3.jpg" title="Find images from Discogs.com for that album release, or search across multiple releases."><img src="images/decibel/artmanager3_thumb.jpg" class="thumbnail" alt="" /></a></li>
-					</ul>
-				</div>
 
-				<div class="row">
-					<div class="description col-md-6">
-						<div class="row">
-							<h4 class="col-md-7">Decibel Image Tools</h4>
-							<h4 class="col-md-5 duration">Duration: ~1.5 weeks</h4>
-						</div>
-						<p>Class libraries and sample apps for manipulating images in a manner relevant to album art. <a href="http://www.chrisevansdev.com/computer-vision-opensurf.html">OpenSURF</a> and <a href="http://www.phash.org">pHash</a> libraries were implemented to build tools for recognising similar album art in the database.</p>
-						<p>A tool was also developed using <a href="http://www.aforgenet.com">AForge.NET</a> image processing algorithms to detect possible images of album media (vinyl/CD) by detecting concentric circles in an image.</p>
-					</div>
-					<ul class="gallery col-md-6">
-						<li><a href="images/decibel/surfScreen.jpg" title="Run analysis on images to determine if they are similar using pHash and openSURF implementations."><img src="images/decibel/surfScreen_thumb.jpg" class="thumbnail" alt="" /></a></li>
-						<li><a href="images/decibel/circleScreen.jpg" title="Find concentric circles in images to determine if they are cd/vinyl images using AForge.NET libraries."><img src="images/decibel/circleScreen_thumb.jpg" class="thumbnail" alt="" /></a></li>
-					</ul>
-				</div>
+		<div class="company-row bloom">
+			<div class="row-background">
+				<div class="col-md-6"></div>
+				<div class="col-md-6"></div>
 			</div>
-
-			<div class="web-desfign">
-				<h3>Web Design</h3>
-				<hr/>
-				<div class="row company-header">
-					<div class="col-md-2"><img class="client_logo" src="images/pt/presentthinking.png"/></div>
-					<div class="col-md-10"><h4 id="ptName">Present Thinking Ltd</h4></div>
-				</div>
+			<div class="row-content container">
 				<div class="row">
-					<ul class="col-md-6 gallery" id="web-design">
-						<li>
-							<a href="images/pt/homepage.jpg" title="Present Thinking Homepage"><img src="images/pt/homepage_thumb.jpg" class="thumbnail" alt="" /></a>
-							<p><a href="http://present-thinking.github.io">Present Thinking Ltd homepage</a></p>
-						</li>
-					</ul>
-					<div class="col-md-6 description">
-						<h4>Internal Projects</h4>
-						<p>Web design projects for Present Thinking Ltd, a web and mobile app development startup with which I am a director.</p>
-						<p>Projects so far include Present Thinking's homepage, and a design for our first web app Stop For Dinner.</p>
+					<div class="col-md-6 company-carousel-container">
+						<div class="jcarousel bloom-carousel">
+							<ul>
+								<li><a href="images/bloom/beta.jpg" title="Beta landing page"><img src="images/bloom/beta.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/dashboard-old.jpg" title="Bloom web app dashboard"><img src="images/bloom/dashboard-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/edit-playlist.jpg" title="Edit playlist page"><img src="images/bloom/edit-playlist.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/faq.jpg" title="Expanding faq page"><img src="images/bloom/faq.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/faq-mobile.jpg" title="Mobile faq page"><img src="images/bloom/faq-mobile.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/home.jpg" title="Responsive home page large styling"><img src="images/bloom/home.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/home2.jpg" title="Responsive home page medium styling"><img src="images/bloom/home2.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/home3.jpg" title="Responsive home page small styling"><img src="images/bloom/home3.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/login.jpg" title="Web app login page"><img src="images/bloom/login.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/login-email.jpg" title="Web app login via email page"><img src="images/bloom/login-email.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/playlists-old.jpg" title="Web app playlists page"><img src="images/bloom/playlists-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/profile-old.jpg" title="Profile page"><img src="images/bloom/profile-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/profile-old-2.jpg" title="Profile page"><img src="images/bloom/profile-old-3.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/profile-old-3.jpg" title="Profile page"><img src="images/bloom/profile-old-3.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/radios.jpg" title="Radios page - wrote algorithm to suggest radios to user"><img src="images/bloom/radios.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/search-results-old.jpg" title="Search results"><img src="images/bloom/search-results-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sonos-old.jpg" title="Sonos page on old website"><img src="images/bloom/sonos-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sonos.jpg" title="Sonos page on news website"><img src="images/bloom/sonos.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sonos2.jpg" title="Sonos mobile page"><img src="images/bloom/sonos2.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sub-old.jpg" title="Subscription page"><img src="images/bloom/sub-old.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sub-old-2.jpg" title="Subscription page"><img src="images/bloom/sub-old-2.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/subscription-mobile.jpg" title="Subscription mobile page"><img src="images/bloom/subscription-mobile.jpg" alt="" /></a></li>
+								<li><a href="images/bloom/sub-alteration.jpg" title="Subscription alteration mobile page"><img src="images/bloom/sub-alteration.jpg" alt="" /></a></li>
+							</ul>
+							<button type="button" class="btn btn-default bloom-carousel-prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</button>
+							<button type="button" class="btn btn-default bloom-carousel-next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</button>
+						</div>
+					</div>
+					<div class="col-md-6 company-content-container">
+						<div class="column-content">
+							<h4>Bloom.fm</h4>
+							<p>
+								Album art manager: <br/>
+								Tools for reviewing a database of album art, with abilities to replace incorrect artwork from various sources including directly from discogs.
+								<br/>
+								<br/>
+								Image tools: <br/>
+								Experimental tools for recognising similar images to each other, with the intention of finding duplicate images in a database.
+								<br/>
+								Experimental tools for finding pictures of CDs and Vinyls by finding concentric circles in an image.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="company-row decibel">
+			<div class="row-background">
+				<div class="col-md-6"></div>
+				<div class="col-md-6"></div>
+			</div>
+			<div class="row-content container">
+				<div class="row">
+					<div class="col-md-6 company-content-container">
+						<div class="column-content">
+							<h4>Decibel Music Systems Ltd</h4>
+							<p>
+								Album art manager: <br/>
+								Tools for reviewing a database of album art, with abilities to replace incorrect artwork from various sources including directly from discogs.
+								<br/>
+								<br/>
+								Image tools: <br/>
+								Experimental tools for recognising similar images to each other, with the intention of finding duplicate images in a database.
+								<br/>
+								Experimental tools for finding pictures of CDs and Vinyls by finding concentric circles in an image.
+								<br/>
+								Libraries used: <a href="http://www.chrisevansdev.com/computer-vision-opensurf.html">OpenSURF</a>, <a href="http://www.phash.org">pHash</a> and <a href="http://www.aforgenet.com">AForge.NET</a>.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6 company-carousel-container">
+						<div class="jcarousel decibel-carousel">
+							<ul>
+								<li><a href="images/decibel/artmanager1.jpg" title="Grid view for easy viewing of huge artwork database."><img src="images/decibel/artmanager1.jpg" alt="" /></a></li>
+								<li><a href="images/decibel/artmanager2.jpg" title="Full size view of single artwork."><img src="images/decibel/artmanager2.jpg" alt="" /></a></li>
+								<li><a href="images/decibel/artmanager3.jpg" title="Find images from Discogs.com for that album release, or search across multiple releases."><img src="images/decibel/artmanager3.jpg" alt="" /></a></li>
+								<li><a href="images/decibel/surfScreen.jpg" title="Run analysis on images to determine if they are similar using pHash and openSURF implementations."><img src="images/decibel/surfScreen.jpg" alt="" /></a></li>
+								<li><a href="images/decibel/circleScreen.jpg" title="Find concentric circles in images to determine if they are cd/vinyl images using AForge.NET libraries."><img src="images/decibel/circleScreen.jpg" alt="" /></a></li>
+							</ul>
+							<button type="button" class="btn btn-default decibel-carousel-prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</button>
+							<button type="button" class="btn btn-default decibel-carousel-next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="company-row present-thinking">
+			<div class="row-background">
+				<div class="col-md-6"></div>
+				<div class="col-md-6"></div>
+			</div>
+			<div class="row-content container">
+				<div class="row">
+					<div class="col-md-6 company-carousel-container">
+						<a href="images/pt/homepage.jpg" title="Present Thinkign home page">
+							<img src="images/pt/homepage.jpg" alt="" />
+						</a>
+					</div>
+					<div class="col-md-6 company-content-container">
+						<div class="column-content">
+							<h4>Present Thinking Ltd</h4>
+							<p>
+								Web design projects for Present Thinking Ltd, a web and mobile app development startup with which I am a director.
+								<br/>
+								Projects so far include Present Thinking's homepage, and a design for our first web app Stop For Dinner.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -110,6 +180,9 @@
 	<script src="fancyzoom/js-global/FancyZoom.js" type="text/javascript"></script>
 	<script src="fancyzoom/js-global/FancyZoomHTML.js" type="text/javascript"></script>
 
-	<script src="js/cv.js"></script>
+	<!-- jCarousel -->
+	<script type="text/javascript" src="bower_components/jcarousel/dist/jquery.jcarousel.js"></script>
+
+	<script src="js/portfolio.js"></script>
 </body>
 </html>
