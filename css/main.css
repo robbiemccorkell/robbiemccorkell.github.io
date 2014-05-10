@@ -153,8 +153,12 @@ body {
 }
 
 .company-row .company-content-container .column-content .company-logo img {
-	height: 55px;
+	height: 50px;
 	max-width: 400px;
+}
+
+.company-row.decibel .company-content-container {
+	display: table;
 }
 
 .company-row.present-thinking .company-content-container .column-content .company-logo img {
@@ -183,11 +187,22 @@ body {
 /* No media query since this is the default in Bootstrap */
 
 @media(max-width:767px) {
+	.company-row.decibel .row-background > div, 
+	.company-row.decibel .row-content .row > div {
+		height: 500px;
+	}
 
+	.company-row.decibel .company-carousel-container {
+		padding-top: 118px;
+		padding-bottom: 118px;
+	}
 }
 	
 @media(min-width:768px){
-
+	.company-row.decibel .row-background > div, 
+	.company-row.decibel .row-content .row > div {
+		height: 400px;
+	}
 }
 
 @media(min-width:992px){
