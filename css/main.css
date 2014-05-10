@@ -35,6 +35,13 @@ body {
 	text-align: center;
 }
 
+.company-row.present-thinking .company-carousel-container img {
+	width: 100%;
+	height: inherit;
+	max-height: 220px;
+	text-align: center;
+}
+
 .company-row .company-carousel-container .btn {
 	margin-top: 10px;
 }
@@ -149,6 +156,7 @@ body {
 }
 
 .company-row .company-content-container .column-content .company-logo img {
+	width: 100%;
 	max-width: 400px;
 }
 
