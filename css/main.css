@@ -31,7 +31,7 @@ body {
 }
 
 .company-row .company-carousel-container img {
-	height: 200px;
+	height: 220px;
 	text-align: center;
 }
 
@@ -141,6 +141,23 @@ body {
 
 .company-row .company-content-container .column-content h4 {
 	margin: 0;
+}
+
+.company-row .company-content-container .column-content .company-logo {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.company-row .company-content-container .column-content .company-logo img {
+	max-width: 400px;
+}
+
+.company-row.present-thinking .company-content-container .column-content .company-logo img {
+	border-radius: 10px;
+}
+
+.company-row.decibel .company-content-container .column-content .company-logo img {
+	width: 200px;
 }
 
 /* Cv styling */
